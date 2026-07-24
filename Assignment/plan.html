@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Step 2 - Select Plan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <div class="step">
+            <span class="step-number">1</span>
+
+            <div>
+                <small>STEP 1</small>
+                <strong>YOUR INFO</strong>
+            </div>
+        </div>
+
+        <div class="step active">
+            <span class="step-number">2</span>
+
+            <div>
+                <small>STEP 2</small>
+                <strong>SELECT PLAN</strong>
+            </div>
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+
+            <div>
+                <small>STEP 3</small>
+                <strong>ADD-ONS</strong>
+            </div>
+        </div>
+
+        <div class="step">
+            <span class="step-number">4</span>
+
+            <div>
+                <small>STEP 4</small>
+                <strong>SUMMARY</strong>
+            </div>
+        </div>
+
+    </aside>
+
+
+    <main class="form-container">
+
+        <h1>Select your plan</h1>
+
+        <p class="description">
+            You have the option of monthly or yearly billing.
+        </p>
+
+
+        <div class="plans">
+
+            <div class="plan" data-plan="Arcade">
+
+                <img src="assets\images\icon-arcade.svg" alt="Arcade">
+
+                <h3>Arcade</h3>
+
+                <p class="price monthly-price">$9/mo</p>
+
+                <p class="price yearly-price">$90/yr</p>
+
+                <span class="free">2 months free</span>
+
+            </div>
+
+
+            <div class="plan" data-plan="Advanced">
+
+                <img src="assets\images\icon-advanced.svg" alt="Advanced">
+
+                <h3>Advanced</h3>
+
+                <p class="price monthly-price">$12/mo</p>
+
+                <p class="price yearly-price">$120/yr</p>
+
+                <span class="free">2 months free</span>
+
+            </div>
+
+
+            <div class="plan" data-plan="Pro">
+
+                <img src="assets\images\icon-pro.svg" alt="Pro">
+
+                <h3>Pro</h3>
+
+                <p class="price monthly-price">$15/mo</p>
+
+                <p class="price yearly-price">$150/yr</p>
+
+                <span class="free">2 months free</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="billing">
+
+            <span id="monthly-label">Monthly</span>
+
+            <label class="switch">
+
+                <input type="checkbox" id="billing-toggle">
+
+                <span class="slider"></span>
+
+            </label>
+
+            <span id="yearly-label">Yearly</span>
+
+        </div>
+
+
+        <div class="buttons">
+
+            <a href="index.html" class="back">
+                Go Back
+            </a>
+
+            <button id="plan-next" class="next">
+                Next Step
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1 - Personal Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <div class="step active">
+            <span class="step-number">1</span>
+
+            <div>
+                <small>STEP 1</small>
+                <strong>YOUR INFO</strong>
+            </div>
+        </div>
+
+        <div class="step">
+            <span class="step-number">2</span>
+
+            <div>
+                <small>STEP 2</small>
+                <strong>SELECT PLAN</strong>
+            </div>
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+
+            <div>
+                <small>STEP 3</small>
+                <strong>ADD-ONS</strong>
+            </div>
+        </div>
+
+        <div class="step">
+            <span class="step-number">4</span>
+
+            <div>
+                <small>STEP 4</small>
+                <strong>SUMMARY</strong>
+            </div>
+        </div>
+
+    </aside>
+
+
+    <main class="form-container">
+
+        <h1>Personal info</h1>
+
+        <p class="description">
+            Please provide your name, email address, and phone number.
+        </p>
+
+        <form id="personal-form">
+
+            <label for="name">Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="e.g. Stephen King"
+                required
+            >
+
+            <label for="email">Email Address</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="e.g. stephenking@lorem.com"
+                required
+            >
+
+            <label for="phone">Phone Number</label>
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="e.g. +1 234 567 890"
+                required
+            >
+
+            <button type="submit" class="next">
+                Next Step
+            </button>
+
+        </form>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
